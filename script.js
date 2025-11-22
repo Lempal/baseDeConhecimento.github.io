@@ -1,5 +1,5 @@
 const cardContainer = document.querySelector(".card-container");
-const campoBusca = document.querySelector("header input");
+const campoBusca = document.querySelector("input");
 
 // ============================================
 // Variáveis de estado
@@ -112,4 +112,5 @@ document.getElementById("botao-busca")?.addEventListener("click", iniciarBusca);
 campoBusca?.addEventListener("input", iniciarBusca);
 document.getElementById("botao-escrever")?.addEventListener("click", adicionarCardDoInput);
 window.addEventListener("load", iniciarBusca);
+
 
