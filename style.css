@@ -1,0 +1,195 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    background: #121212; /* fundo escuro neutro */
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* Input e botões */
+header div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    width: 250px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 8px rgba(0,188,212,0.4);
+    background: rgba(255,255,255,0.08);
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background: #00bcd4;
+    color: #121212;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: #0097a7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,188,212,0.3);
+}
+
+/* Main container */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem 1rem;
+}
+
+/* Card container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Card estilo sério */
+.card {
+    position: relative;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #00bcd4;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #cfcfcf;
+}
+
+.card a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.card a:hover {
+    color: #0097a7;
+}
+
+/* Footer */
+footer.footer {
+    padding: 2rem;
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: #00bcd4;
+}
+
+/* Animação leve para cards */
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade */
+@media(max-width:768px){
+    input[type="text"] {
+        width: 180px;
+    }
+}
+
+@media(max-width:480px){
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header div {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    input[type="text"], button {
+        width: 100%;
+    }
+}

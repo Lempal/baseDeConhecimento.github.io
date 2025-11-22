@@ -1,0 +1,124 @@
+[
+  {
+    "nome": "Futebol",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 11,
+    "olimpico": true,
+    "pais_de_origem": "Inglaterra",
+    "descricao": "Esporte em que duas equipes tentam marcar gols chutando a bola na meta adversária. É o esporte mais popular do mundo."
+  },
+  {
+    "nome": "Basquete",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 5,
+    "olimpico": true,
+    "pais_de_origem": "Estados Unidos",
+    "descricao": "Duas equipes tentam arremessar a bola na cesta do adversário. O basquete é famoso por suas enterradas e jogadas rápidas."
+  },
+  {
+    "nome": "Vôlei",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 6,
+    "olimpico": true,
+    "pais_de_origem": "Estados Unidos",
+    "descricao": "As equipes lançam a bola sobre uma rede, tentando que ela toque o chão do adversário sem que este a devolva corretamente."
+  },
+  {
+    "nome": "Tênis",
+    "tipo": "Individual / Duplas",
+    "jogadores_por_time": 1,
+    "olimpico": true,
+    "pais_de_origem": "França",
+    "descricao": "O objetivo é rebater a bola com uma raquete sobre uma rede. Grandes torneios incluem Wimbledon e Roland Garros."
+  },
+  {
+    "nome": "Natação",
+    "tipo": "Individual / Revezamento",
+    "olimpico": true,
+    "pais_de_origem": "Vários",
+    "descricao": "Os competidores nadam em piscinas em diferentes estilos e distâncias, buscando o menor tempo possível."
+  },
+  {
+    "nome": "Atletismo",
+    "tipo": "Individual / Coletivo",
+    "olimpico": true,
+    "pais_de_origem": "Grécia Antiga",
+    "descricao": "Modalidades que envolvem corrida, salto e arremesso, incluindo maratonas e saltos em altura e distância."
+  },
+  {
+    "nome": "Boxe",
+    "tipo": "Individual",
+    "jogadores_por_time": 1,
+    "olimpico": true,
+    "pais_de_origem": "Reino Unido",
+    "descricao": "Esporte de combate em que dois atletas tentam nocautear ou pontuar sobre o adversário usando socos."
+  },
+  {
+    "nome": "Surf",
+    "tipo": "Individual",
+    "olimpico": true,
+    "pais_de_origem": "Havaí",
+    "descricao": "Atleta desliza sobre ondas utilizando uma prancha. É um esporte olímpico recente e muito ligado à cultura praiana."
+  },
+  {
+    "nome": "Ginástica Artística",
+    "tipo": "Individual / Equipe",
+    "olimpico": true,
+    "pais_de_origem": "Alemanha",
+    "descricao": "Exercícios que envolvem força, flexibilidade e coordenação em aparelhos como barras, argolas e solo."
+  },
+  {
+    "nome": "Ciclismo de Estrada",
+    "tipo": "Individual / Equipe",
+    "olimpico": true,
+    "pais_de_origem": "França",
+    "descricao": "Corridas de longa distância em estrada, incluindo provas famosas como o Tour de France."
+  },
+  {
+    "nome": "Rúgbi",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 15,
+    "olimpico": true,
+    "pais_de_origem": "Inglaterra",
+    "descricao": "Esporte físico e estratégico em que a bola oval é passada para frente ou chutada, com o objetivo de marcar pontos no campo adversário."
+  },
+  {
+    "nome": "Handebol",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 7,
+    "olimpico": true,
+    "pais_de_origem": "Dinamarca",
+    "descricao": "Equipes tentam marcar gols lançando a bola com as mãos em direção à meta adversária, em ritmo rápido."
+  },
+  {
+    "nome": "Hóquei no Gelo",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 6,
+    "olimpico": true,
+    "pais_de_origem": "Canadá",
+    "descricao": "Jogadores deslizam sobre gelo e usam tacos para empurrar o disco na meta adversária. Muito popular em países frios."
+  },
+  {
+    "nome": "Hóquei sobre Grama",
+    "tipo": "Coletivo",
+    "jogadores_por_time": 11,
+    "olimpico": true,
+    "pais_de_origem": "Inglaterra",
+    "descricao": "Semelhante ao hóquei no gelo, mas jogado em campo gramado, utilizando bastões curvos para controlar a bola."
+  },
+  {
+    "nome": "Esgrima",
+    "tipo": "Individual",
+    "jogadores_por_time": 1,
+    "olimpico": true,
+    "pais_de_origem": "França",
+    "descricao": "Esporte de combate com espadas, em que o objetivo é tocar o adversário em áreas válidas para marcar pontos."
+  },
+  {
+    "nome": "Arco e Flecha",
+    "tipo": "Individual / Equipe",
+    "olimpico": true,
+    "pais_de_origem": "Inglaterra",
+    "descricao": "Atletas utilizam arco para lançar flechas em direção a alvos, buscando precisão máxima."
+  }
+]
