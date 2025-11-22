@@ -4,37 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Básico -->
+    <title>Base de Conhecimento | Victor Hugo</title>
+    <meta name="description"
+        content="Base de conhecimento com conteúdos, tutoriais, códigos e estudos desenvolvidos por Victor Hugo. Programação, tecnologia e aprendizado contínuo.">
+    <meta name="keywords"
+        content="programação, desenvolvimento web, html, css, javascript, base de conhecimento, tecnologia, Victor Hugo">
+    <meta name="author" content="Victor Hugo">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:title" content="Base de Conhecimento — Victor Hugo">
+    <meta property="og:description" content="Tutoriais, códigos, estudos e conteúdos sobre tecnologia e programação.">
+    <meta property="og:image" content="https://SEUSITE.com/imagem-og.png">
+    <meta property="og:url" content="https://SEUSITE.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Base de Conhecimento — Victor Hugo">
+    <meta name="twitter:description" content="Conteúdos e tutoriais sobre programação.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-    <title>Base de conhecimento</title>
+    <meta name="theme-color" content="#111">
+
+    <!-- SEO Avançado / Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Base de Conhecimento - Victor Hugo",
+      "url": "https://github.com/lempal",
+      "author": {
+        "@type": "Person",
+        "name": "Victor Hugo"
+      },
+      "description": "Base de conhecimento com conteúdos de programação, tutoriais e códigos feitos por Victor Hugo.",
+      "publisher": {
+        "@type": "Person",
+        "name": "Victor Hugo"
+      }
+    }
+    </script>
 </head>
+
 
 <body>
     <header>
         <h1>Base de conhecimento</h1>
         <div>
-            <input type="text" placeholder="Digite uma linguagem um esporte">
+            <input type="text" placeholder="Digite uma linguagem ou um esporte">
             <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
         </div>
     </header>
 
     <main>
-        <section class="card-container">
-
-        </section>
+        <section class="card-container"></section>
     </main>
 
-    <footer>
-        <footer class="footer">
-            <ul class="footer-links">
-                <li>
-                    <a href="https://github.com/lempal">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.alura.com.br/">Alura</a>
-                </li>
-            </ul>
-        </footer>
-        <script src="script.js"></script>
+    <footer class="footer">
+        <ul class="footer-links">
+            <li><a href="https://github.com/lempal" target="_blank">GitHub</a></li>
+            <li><a href="https://www.alura.com.br/" target="_blank">Alura</a></li>
+        </ul>
+
+        <div class="footer-creditos">
+            <p>Design by <strong>Victor Hugo Silva Alves</strong></p>
+            <p>Contribuite: <strong>InnovaIdeia</strong></p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
